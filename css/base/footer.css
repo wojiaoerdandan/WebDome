@@ -1,7 +1,7 @@
 /*footer*/
 
 .main{width:1200px;margin:0 auto;}
-.footer-nav-box,.footer-info{border-bottom:1px solid rgba(255,255,255,0.2);border-bottom:1px solid #282e33\9;}
+.footer-nav-box,.footer-info{border-bottom:1px solid rgba(255,255,255,0.2);border-bottom:1px solid #282e33}
 
 .footer-box{background:#1b242b;}
 .footer-nav-box{height:60px;padding-top:10px;}
