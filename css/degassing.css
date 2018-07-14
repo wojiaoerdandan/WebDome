@@ -74,7 +74,7 @@
   width: 1200px;
   margin: 0 auto;
 }
-.tab-cont .three {
+.tab-cont .four {
   display: block;
 }
 .nav li h1 {
@@ -195,6 +195,10 @@
 .two .two-list:nth-child(4) .zy dd {
   float: left;
 }
+.two .two-list:nth-child(4) .zy dd h1,
+.two .two-list:nth-child(4) .zy dd p {
+  text-align: left;
+}
 .two .two-list:nth-child(4) .zy dd .bt:after {
   content: "";
   right: 0;
@@ -272,4 +276,51 @@
   text-align: left;
   left: 70px;
   bottom: 53px;
+}
+.priceBox {
+  margin: 104px;
+}
+.priceBox:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.priceBox dl {
+  margin-bottom: 3px;
+  position: relative;
+  float: left;
+  margin-right: 30px;
+}
+.priceBox dl:after {
+  content: "";
+  display: block;
+  width: 67px;
+  height: 67px;
+  background: url("../img/tang_03.png") no-repeat center center;
+  background-size: 100% 100%;
+  background-color: #44b25b;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.priceBox dl dt {
+  width: 270px;
+  height: 204px;
+  margin-bottom: 20px;
+}
+.priceBox dl dd h2 {
+  color: #23963b;
+  font-size: 22px;
+  margin-bottom: 7px;
+}
+.priceBox dl dd h3 {
+  font-size: 12px;
+  color: #aaaaaa;
+  margin-bottom: 25px;
+}
+.priceBox dl dd p {
+  color: #737373;
+}
+div.BtnBox {
+  margin-bottom: 109px;
 }

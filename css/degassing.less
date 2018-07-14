@@ -77,7 +77,7 @@
 		width:1200px;
 		margin:0 auto;
 	}
-	.three{
+	.four{
 		display:block;
 	}
 }
@@ -204,6 +204,9 @@
 		.zy{
 			dd{
 				float:left;
+				h1,p{
+					text-align:left;
+				}
 				.bt{
 					&:after{
 						content:"";
@@ -293,4 +296,53 @@
 		}
 		
 
+}
+.priceBox{
+	&:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+	margin:104px;
+	dl{
+		margin-bottom:3px;
+		position:relative;
+		float:left;
+		margin-right:30px;
+		&:after{
+			content:"";
+			display:block;
+			width:67px;
+			height:67px;
+			background:url("../img/tang_03.png") no-repeat center center;
+			background-size:100% 100%;
+			background-color:#44b25b;
+			position:absolute;
+			right:0;
+			top:0;
+		}
+		dt{
+			width:270px;
+			height:204px;
+			margin-bottom:20px;
+		}
+		dd{
+			h2{
+				color:#23963b;
+				font-size:22px;
+				margin-bottom:7px;
+			}
+			h3{
+				font-size:12px;
+				color:#aaaaaa;
+				margin-bottom:25px;
+			}
+			p{
+				color:#737373;
+			}
+		}
+	}
+}
+div.BtnBox{
+	margin-bottom:109px;
 }
