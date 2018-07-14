@@ -8,6 +8,32 @@
   height: 120px;
   margin: 0 auto;
 }
+.header .header-wraper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
 .header .header-wraper .header-logo {
   padding-top: 12px;
+  float: left;
+  margin-right: 30px;
+}
+.header .header-wraper .nav {
+  float: left;
+}
+.header .header-wraper .nav li {
+  height: 120px;
+  text-align: center;
+  color: #1f1845;
+  float: left;
+  margin-right: 22px;
+}
+.header .header-wraper .nav li h1 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #1f1845;
+}
+.header .header-wraper .nav li p {
+  font-size: 6px;
+  color: #757575;
 }
