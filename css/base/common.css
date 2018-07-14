@@ -23,7 +23,6 @@ iframe{
 .slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
 .slideBox .prevStop{ display:none;  }
 .slideBox .nextStop{ display:none;  } */
-<<<<<<< HEAD
 .banner {
   width: 100%;
   height: 520px;
@@ -57,7 +56,7 @@ iframe{
 }
 .nav li.color p span {
   color: #fff;
-=======
+}
 div.BtnBox{
     /* width: 1200px; */
     margin: 0 auto;
@@ -71,5 +70,4 @@ div.BtnBox a.moreBtn{
     text-align: center;
     line-height: 49px;
     color: #8e8d8d;
->>>>>>> 4be619574c5d1891ab116a13a0bfc492b6d703b7
 }
