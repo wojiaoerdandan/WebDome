@@ -41,7 +41,7 @@ div.conts{
   text-align: center;
   color: #1f1845;
   float: left;
-  margin-right: 22px;
+  margin: 0 11px;
 }
 .nav li h1 {
   font-size: 16px;
