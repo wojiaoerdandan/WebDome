@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/base/common.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <title>关于我们</title>
+</head>
+<body>
+    <div class="wrap">
+        <iframe src="/head.html" frameborder="0" width="100%" height="120px"></iframe>
+        <!-- 广告图 -->
+        <div class="banner">
+            <div class="conts">
+                <h1>企业简介</h1>
+                <p>E N T E R P R I S E I N T R O D U C T I O N</p>
+            </div>
+        </div>
+        <!-- tab切换 -->
+        <div class="tab-cont">
+                <ul class="nav">
+                    <li>
+                        <h1>企业简介</h1>
+                        <p><span>ENTERPRISE INTRODUCTION</span></p>
+                        <div class="nav-bg show"></div>
+                    </li>
+                    <li>
+                        <h1>新闻中心</h1>
+                        <p><span>NEWS CENTER</span></p>
+                        <div class="nav-bg"></div>
+                    </li>
+                    <li>
+                        <h1>招贤纳士</h1>
+                        <p><span>RECRUIT</span></p>
+                        <div class="nav-bg"></div>
+                    </li>
+                    <li>
+                        <h1>联系我们</h1>
+                        <p><span>CONTACT US</span></p>
+                        <div class="nav-bg"></div>
+                    </li>
+                </ul>
+                <section class="one">
+                     <h1 class="bt">关于我们</h1>
+                     <div>
+                        <p>2018年6月</p>    
+                        <p>一个平常的日子</p>    
+                        <p>云青堂降生</p>    
+                        <p>一家由信仰不将就的人构成的公司从一开始，我们就希望做点不一样的事情，</p>    
+                        <p>去影响甚至改编这个将就的视界</p>    
+                        <p>我们选择了科技保洁作为我们实践梦想的第一步</p>    
+                     </div>
+                     <div class="map">
+                         <div class="conts">
+                            <img src="/img/aboutImg.png" alt="">
+                         </div>
+                     </div>
+                     <div>
+                         <img src="/img/about_1.png" class="Block" alt="">
+                     </div>
+                     <div class="qywh">
+                         <div class="conts">
+                            <h2>企业文化</h2>
+                            <p>愿景&使命</p>
+                         </div>
+                         
+                     </div>
+                </section>
+                <section class="two">2</section>
+                <section class="three">3</section>
+                <section class="fouth">4</section>
+        </div>
+        <iframe src="/footer.html" frameborder="0" width="100%" height="445px"></iframe>
+    </div>
+    <script src="/js/common/jquery-2.1.1.js"></script>
+    <script type="text/javascript">
+            $(".tab-cont .nav>li").on("click",function(){
+                var navIndex = $(this).index();
+                $(this).find(".nav-bg").addClass("show").parent().siblings().find(".nav-bg").removeClass("show");
+                $(".tab-cont>section").eq(navIndex).show().siblings("section").hide();
+            });
+    </script>
+</body>
+</html>
