@@ -1,7 +1,37 @@
-/*footer*/
+@charset "UTF-8";
+/*rest*/
+body{background:#fff;color:#323942;min-width:1180px;-webkit-font-smoothing:antialiased;}
+body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,form,input,textarea,select,td,th,button{margin:0;padding:0;}
+body,textarea,input,select,button{font-size:12px;font-family:"Microsoft YaHei",微软雅黑,"Hiragino Sans GB",Tahoma,Arial,"\5b8b\4f53",SimSun,sans-serif;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+ul{list-style:none;}
+img{border:none;display:block;}
+em,i{font-style:normal;}
+textarea{resize:none;overflow:auto;}
+textarea,input,select,button{outline:none;}
+tabel{border-collapse:collapse;}
+a{text-decoration:none;color:#323942;}
+a:focus{outline:none;}
+/*clear*/
+.clear:after{content:".";height:0;display:block;clear:both;visibility:hidden;}
+.clear{_zoom:1;*display:inline-block;}
 
-.main{width:1200px;margin:0 auto;}
-.footer-nav-box,.footer-info{border-bottom:1px solid rgba(255,255,255,0.2);border-bottom:1px solid #282e33}
+/*float*/
+.fl{float:left;}
+.fr{float:right;}
+.top-logo,.top-city,.top-nav li,.top-login a,.cur-path,.search-inp .inp,.footer-nav li,.footer-code .code,.top-city-menu dt,.top-city-menu dd,.lay-tab-tit li,.lay-list .pic,.lay-zhx-info li,.lay-zhx-list li,.lay-zhx-list h3{float:left;}
+.top-nav,.top-login,.search-box,.btn-search,.footer-nav,.share-guanzhu,.lay-list .info,.lay-zhx-list .price{float:right;}
+
+/*layout*/
+.main{width:1180px;margin:0 auto;}
+
+
+
+
+
+
+/*footer*/
+.footer-nav-box,.footer-info{border-bottom:1px solid rgba(255,255,255,0.2);border-bottom:1px solid #282e33;}
 
 .footer-box{background:#1b242b;}
 .footer-nav-box{height:60px;padding-top:10px;}
@@ -13,11 +43,11 @@
 .footer-nav a{line-height:60px;font-size:16px;color:#999;}
 .footer-nav a:hover{color:#fbc700;}
 
-.footer-info{height:135px;padding:24px 0;position:relative;}
-.footer-info dl{margin-top:12px;}
+.footer-info{height:224px;position:relative;}
+.footer-info dl{padding-top:52px;}
 .footer-info dt{height:46px;}
 .footer-info dt i{width:46px;height:46px;}
-.footer-info dd{color:#999;font-size:14px;line-height:26px;}
+.footer-info dd{color:#999;font-size:14px;line-height:26px;color: #ffffff;}
 
 .footer-info .f-iphone{margin-right:96px;overflow:hidden;}
 .footer-info .f-iphone dt,.footer-info .f-iphone dd{float:left;}
@@ -25,9 +55,18 @@
 .f-iphone .icon-phone{display:block;background-position:0 0;}
 .f-iphone .kf-num{color:#fbc700;font-size:24px;}
 
-.footer-code{position:absolute;right:0;top:40px;}
+.footer-code{position:absolute;right:0;top:50px;}
 .footer-code .code img{width:90px;height:90px;}
 .footer-code .code .wz{font-size:14px;color:#999;text-align:center;margin-top:8px;border:1px solid #283036;border-radius:15px;padding:3px 0;}
 .footer-code .code2{margin-left:70px;}
 
 .footer-cr{line-height:59px;color:#797979;}
+
+.footer-ComMes{   
+    height: 177px;
+    background:#fff;
+    width: 100%;
+    text-align: center;
+    line-height: 26px;
+    padding-top: 44px;
+}
