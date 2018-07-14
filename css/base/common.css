@@ -1,9 +1,9 @@
 iframe{
     display: inherit;
 }
-*{
+/* *{
     font-family: "微软雅黑";
-}
+} */
 
 /* 轮播 */
 .slideBox{ width:100%; height:100%; overflow:hidden; position:relative;  }

@@ -8,6 +8,13 @@ div.TitBox{
     /* background: red; */
     margin: 0 auto;
 }
+div.bd ul{
+    height: 520px;
+}
+div.bd ul li{
+    height: 520px;
+    background: url("/img/banner.png") center top / cover no-repeat;
+}
 p{
     color:#44b25b;
     font-size: 32px;
