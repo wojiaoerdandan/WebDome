@@ -21,34 +21,12 @@
 .header .header-wraper .nav {
   float: left;
 }
-.header .header-wraper .nav li {
+.header .header-wraper .nav li{
   width: 112px;
   height: 120px;
-  text-align: center;
-  color: #1f1845;
-  float: left;
-  margin-right: 22px;
   padding-top: 50px;
-}
-.header .header-wraper .nav li h1 {
-  font-size: 16px;
-  color: #1f1845;
-}
-.header .header-wraper .nav li p {
-  color: #757575;
-}
-.header .header-wraper .nav li p span {
-  -webkit-transform: scale(0.5);
-  display: block;
-  font-size: 6px;
 }
 .header .header-wraper .nav li.color {
   background: url("../img/line_icon.png") repeat-x left center;
   background-size: 100% 100%;
-}
-.header .header-wraper .nav li.color h1 {
-  color: #fff;
-}
-.header .header-wraper .nav li.color p span {
-  color: #fff;
 }

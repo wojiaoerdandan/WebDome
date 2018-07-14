@@ -6,13 +6,122 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base/common.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/degassing.css">
     <title>房屋消毒</title>
 </head>
 <body>
     <div class="wrap">
         <iframe src="head.html" frameborder="0" width="100%" height="120px"></iframe>
+        <!-- 广告图 -->
+        <div class="banner"><img src="img/banner.png"></div>
+        <!-- tab切换 -->
+        <div class="tab-cont">
+            <ul class="nav">
+                <li>
+                    <h1>病毒危害&治理</h1>
+                    <p><span>VIRUSHARM&GOVERNANCE </span></p>
+                    <div class="nav-bg show"></div>
+                </li>
+                <li>
+                    <h1>服务设备</h1>
+                    <p><span>SERVICEEQUIPMENT</span></p>
+                    <div class="nav-bg"></div>
+                </li>
+                <li>
+                    <h1>服务案例</h1>
+                    <p><span>SERVICECASE</span></p>
+                    <div class="nav-bg"></div>
+                </li>
+                <li>
+                    <h1>服务价格</h1>
+                    <p><span>SERVICEPRICE</span></p>
+                    <div class="nav-bg"></div>
+                </li>
+            </ul>
+            <section class="one">
+                <div class="one-top">
+                    <div class="top-left"><img src="img/z1.png" ></div>
+                    <div class="top-right">
+                        <h1 class="bt">服务简介</h1>
+                        <p>上门洗车是一项系统定制化的工程</p>
+                        <p>专业技师需根据现场情况规划作业方案</p>
+                        <p>并挑选工具，体力、技术、经验、团队协作、专业设备缺一不可</p>
+                        <p>方能保证工作高效到位</p>
+
+                        <p>上门洗车是一项</p>
+                        <p>系统定制化的工程，专业技师需根据现场情况规划作业方案</p>
+                        <p>并挑选工具，体力、技术、经验、团队协作、专业设备缺一不可</p>
+                        <p>方能保证工作高效到位</p>
+
+                        <p>专业技师需根据现场情况</p>
+                        <p>规划作业方案，并挑选工具，体力、技术、</p>
+                        <p>经验、团队协作、专业设备缺一不可</p>
+                    </div>
+                </div>
+                <div class="one-bottom">
+                    <h1 class="bt">病毒的危害</h1>
+                    <div class="bottom-list">
+                        <div class="black-bg"></div>
+                        <div class="list-txt">
+                            <h1>刺激作用</h1>
+                            <p>甲醛会对皮肤黏膜产生</p>
+                            <p>刺激作用，甲醛是原浆毒物质</p>
+                            <p>能与蛋白质结合</p>
+                            <p>高浓度吸入时出现呼吸道严重的</p>
+                            <p>刺激和水肿、眼刺激、头痛</p>
+                        </div>
+                    </div>
+                    <div class="bottom-list">
+                        <div class="black-bg"></div>
+                        <div class="list-txt">
+                            <h1>刺激作用</h1>
+                            <p>甲醛会对皮肤黏膜产生</p>
+                            <p>刺激作用，甲醛是原浆毒物质</p>
+                            <p>能与蛋白质结合</p>
+                            <p>高浓度吸入时出现呼吸道严重的</p>
+                            <p>刺激和水肿、眼刺激、头痛</p>
+                        </div>
+                    </div>
+                    <div class="bottom-list">
+                        <div class="black-bg"></div>
+                        <div class="list-txt">
+                            <h1>刺激作用</h1>
+                            <p>甲醛会对皮肤黏膜产生</p>
+                            <p>刺激作用，甲醛是原浆毒物质</p>
+                            <p>能与蛋白质结合</p>
+                            <p>高浓度吸入时出现呼吸道严重的</p>
+                            <p>刺激和水肿、眼刺激、头痛</p>
+                        </div>
+                    </div>
+                    <div class="bottom-list">
+                        <div class="black-bg"></div>
+                        <div class="list-txt">
+                            <h1>刺激作用</h1>
+                            <p>甲醛会对皮肤黏膜产生</p>
+                            <p>刺激作用，甲醛是原浆毒物质</p>
+                            <p>能与蛋白质结合</p>
+                            <p>高浓度吸入时出现呼吸道严重的</p>
+                            <p>刺激和水肿、眼刺激、头痛</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="two">
+                <h1 class="bt">服务设备</h1>
+            </section>
+            <section class="three">3</section>
+            <section class="four">4</section>
+        </div>
         <iframe src="footer.html" frameborder="0" width="100%" height="445px"></iframe>
     </div>
+    <script src="js/common/jquery-2.1.1.js"></script>
+    <script type="text/javascript">
+        
+            $(".tab-cont .nav>li").on("click",function(){
+                var navIndex = $(this).index();
+                $(this).find(".nav-bg").addClass("show").parent().siblings().find(".nav-bg").removeClass("show");
+                $(".tab-cont>section").eq(navIndex).show().siblings("section").hide();
+            });
+    </script>
 </body>
 </html>

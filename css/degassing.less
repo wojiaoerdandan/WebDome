@@ -1,0 +1,162 @@
+.bt{
+		color:#151515;
+		font-size:46px;
+		height:73px;
+		position:relative;
+		text-align:center;
+		margin-bottom:42px;
+		&:after{
+			content:"";
+			display:block;
+			width:35px;
+			height:6px;
+			position:absolute;
+			right:50%;
+			margin-right:-17px;
+			bottom:0;
+			background-color:#23963b;
+		}
+	}
+.tab-cont{
+	width:100%;
+	.nav{
+		width:1091px;
+		height:40px;
+		background-color:#acacac;
+		margin:0 auto;
+		margin-bottom:127px;
+		li{
+			width:250px;
+			padding-top: 4px;
+			position:relative;
+			cursor:pointer;
+		}
+
+	}
+	section{
+		display:none;
+		width:1200px;
+		margin:0 auto;
+	}
+	.one{
+		display:block;
+	}
+}
+.nav li h1 {
+  font-size: 16px;
+  color: #fff;
+  position:relative;
+  z-index:2;
+}
+.nav li p {
+  color: #fff;
+  position:relative;
+  z-index:2;
+}
+.nav li .nav-bg{
+	width:250px;
+	height:48px;
+	position:absolute;
+	left:0;
+	top:-3px;
+	z-indexz:1;
+	background:url("../img/line-icon2.png") repeat-x center center;
+	background-size:100% 100%;
+	display:none;
+}
+.nav li .nav-bg.show{
+	display:block;
+}
+.one .one-top{
+	margin-bottom:170px;
+	&:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+}
+.one .top-left{
+	width:556px;
+	height:663px;
+	float:left;
+}
+.one .top-right{
+	float:right;
+	padding-right:22px;
+	.bt{
+		text-align:right;
+		&:after{
+			right:22px;
+			margin-left:0;
+		}
+	}
+
+	p{
+		font-size:16px;
+		color:#6e6e6e;
+		line-height:43px;
+		text-align:right;
+	}
+}
+.one-bottom{
+	margin-bottom:130px;
+	&:after{
+		content:"";
+		clear:both;
+		display:block;
+	}
+	.bottom-list{
+		width:282px;
+		height:502px;
+		background-color:#fff;
+		float:left;
+		position:relative;
+		margin-right:18px;
+		position:relative;
+		&:after{
+			content:"";
+			width:30px;
+			height:5px;
+			background-color:#23963b;
+			position:absolute;
+			left:14px;
+			top:18px;
+			z-index:2;
+		}
+		.black-bg{
+			width:282px;
+			height:502px;
+			background-color:#000;
+			opacity:.7;
+			position:absolute;
+			left:0;
+			top:0;
+			z-index:1;
+		}
+		.list-txt{
+			width:282px;
+			height:502px;
+			position:absolute;
+			left:0;
+			top:0;
+			z-index:2;
+			text-align:center;
+			padding-top:140px;
+			h1{
+				width:136px;
+				font-size:32px;
+				margin:0 auto;
+				color:#fff;	
+				height:52px;
+				border-bottom:1px solid #9b9b9b;	
+				margin-bottom:30px;
+			}
+			p{
+				font-size:16px;
+				color:#a7a7a7;
+				line-height:30px;
+			}
+		}
+	}
+	
+}
