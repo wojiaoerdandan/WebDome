@@ -20,7 +20,6 @@
 }
 .header .header-wraper .nav {
   float: left;
-  padding-top: 50px;
 }
 .header .header-wraper .nav li {
   width: 112px;
@@ -29,6 +28,7 @@
   color: #1f1845;
   float: left;
   margin-right: 22px;
+  padding-top: 50px;
 }
 .header .header-wraper .nav li h1 {
   font-size: 16px;
@@ -41,4 +41,14 @@
   -webkit-transform: scale(0.5);
   display: block;
   font-size: 6px;
+}
+.header .header-wraper .nav li.color {
+  background: url("../img/line_icon.png") repeat-x left center;
+  background-size: cover;
+}
+.header .header-wraper .nav li.color h1 {
+  color: #fff;
+}
+.header .header-wraper .nav li.color p span {
+  color: #fff;
 }
