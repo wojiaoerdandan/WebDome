@@ -33,7 +33,14 @@ div.TitBox_2{
     max-width: 1340px;
     background: url("/img/tit_2.png") center center no-repeat;
 }
-
+div.TitBox_4{
+    max-width: 1108px;
+    background: url("/img/yy_bg.png") center center no-repeat;
+}
+div.TitBox_5{
+    max-width: 1044px;
+    background: url("/img/cgal.png") center center no-repeat;
+}
 div.cont_news{
     max-width: 1512px;
     /* width: 1200px; */
@@ -142,6 +149,52 @@ div.hb_cont p {
     padding-top: 60px;
 }
 
+
+div.Kjhb{
+    height: 650px;
+    width: 100%;
+    background: url("/img/con_4.png") center center;
+    margin-top: 100px;
+}
+div.Kjhb h1{
+    color:#fff;
+    text-align: center;
+    padding-top: 164px;
+    font-size: 52px;
+}
+div.Kjhb p{
+    padding-top: 12px;
+    font-size: 16px;
+    color:#aaaaaa;
+}
+div.Kjhb ul{
+    overflow: hidden;
+    text-align: center;
+    margin-top: 82px;
+}
+div.Kjhb ul li{
+    float: left;
+    width: 196px;
+    margin:0 88px;
+}
+div.Kjhb ul li dl dd{
+    color:#858585;
+    font-size: 16px;
+    padding-top: 26px;
+}
+div.zyyw{
+    margin-top: 50px;
+}
+div.cgal ul{
+    overflow: hidden;
+    margin-top: 44px;
+}
+div.cgal ul li {
+    width: 380px;
+    height: 200px;
+    float: left;
+    margin: 0 10px;
+}
 
 iframe.iframe_footer{
     margin-top: 86px;
