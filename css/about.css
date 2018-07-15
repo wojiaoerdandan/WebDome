@@ -218,8 +218,60 @@ div.banner h1{
 div.BtnBox{
     margin-top: 65px;
 }
-.tab-cont section.three{
+div.tab-cont section.three{
     height: 1132px;
     width: inherit;
+    padding-top: 832px;
     background:url("/img/joinOurBg.png") center top / cover no-repeat;
+}
+div.jobs-cont{
+    position: relative;
+    height: 1180px;
+    padding-top: 1067px;
+}
+div.jobs-cont ul.jobs-nav{
+    position: absolute;
+    top: 1020px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+div.conts ul.jobList{
+    text-align: center;
+}
+div.conts ul.jobList li{
+    width: 20%;
+    display: inline-block;
+    line-height: 42px;
+    color:#fff;
+}
+
+div.concat_1{
+    width: 1108px;
+    /* height: 310px; */
+    margin: 0 auto;
+}
+div.concat_1 div.concatBoxL{
+    width: 310px;
+    height: 310px;
+    display: inline-block;
+}
+div.concat_1  div.concatBoxR{
+    width: 754px;
+    height: 310px;
+    display: inline-block;
+    float: right;
+}
+div.mapBox {
+    height: 556px;
+    margin-top: 33px;
+    margin-bottom: 55px;
+}
+
+
+div.tab-cont section.jobBox{
+    position: absolute;
+    top:0px;
+    height: 1180px;
+    z-index: -1;
 }

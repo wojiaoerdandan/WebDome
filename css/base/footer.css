@@ -47,17 +47,23 @@ a:focus{outline:none;}
 .footer-info dl{padding-top:52px;}
 .footer-info dt{height:46px;}
 .footer-info dt i{width:46px;height:46px;}
-.footer-info dd{color:#999;font-size:14px;line-height:26px;color: #ffffff;}
+.footer-info dd{color:#999;font-size:14px;line-height:36px;color: #ffffff;}
 
 .footer-info .f-iphone{margin-right:96px;overflow:hidden;}
 .footer-info .f-iphone dt,.footer-info .f-iphone dd{float:left;}
 .footer-info .f-iphone dd{line-height:46px;margin-left:14px;}
+.footer-info  dd img{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 12px;
+}
 .f-iphone .icon-phone{display:block;background-position:0 0;}
 .f-iphone .kf-num{color:#fbc700;font-size:24px;}
 
 .footer-code{position:absolute;right:0;top:50px;}
 .footer-code .code img{width:90px;height:90px;}
-.footer-code .code .wz{font-size:14px;color:#999;text-align:center;margin-top:8px;border:1px solid #283036;border-radius:15px;padding:3px 0;}
+.footer-code .code .wz{font-size:14px;color:#fff;text-align:center;margin-top:8px;border-radius:15px;padding:3px 0;}
 .footer-code .code2{margin-left:70px;}
 
 .footer-cr{line-height:59px;color:#797979;}
